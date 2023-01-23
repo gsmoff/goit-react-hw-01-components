@@ -10,7 +10,7 @@ export const Statistics = ({ title, stats }) => {
       <ul className={css.statList}>
         {stats.map(stat => {
           return (
-            <li className={css.item}  key={stat.id}>
+            <li className={css.item} key={stat.id}>
               <Item stat={stat} />
             </li>
           );
@@ -28,4 +28,5 @@ Statistics.propTypes = {
       percentage: PropTypes.number.isRequired,
     })
   ),
+  title: PropTypes.string.isRequired,
 };
