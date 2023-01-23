@@ -1,6 +1,7 @@
 import React from 'react';
 import { TableRow } from './TableRow';
 import PropTypes from 'prop-types';
+
 export const TransactionHistory = ({ transactions }) => {
   return (
     <div>
