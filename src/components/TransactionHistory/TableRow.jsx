@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './TransactionHistory.module.css';
 
 export const TableRow = ({ transaction: { type, amount, currency } }) => {
   return (
